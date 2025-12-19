@@ -1,6 +1,7 @@
 
 # Telseq software adapted for a barn owl genome 
-
+here is a modified copy from the original telseq (https://github.com/zd1/telseq )
+ 
 -----------------------------------------------------------------------
 TelSeq is a software that estimates telomere length from
 whole genome sequencing data (BAMs).
