@@ -27,13 +27,15 @@ namespace ScanParameters{
 
 	static std::string FIELD_SEP="\t";
 	// this is in basepair
-	const unsigned int GENOME_LENGTH_AT_TEL_GC = 114356900;
+	const unsigned int GENOME_LENGTH_AT_TEL_GC = 114356900;  
+        // adapted for barn owl genome
 	// output unit, it kb by default (1000), change it to 1 if in bp
 	const unsigned int LENGTH_UNIT = 1000;
 	static unsigned int READ_LENGTH = 100;
 	static std::string PATTERN="TTAGGG";
 	static std::string PATTERN_REVCOMP="CCCTAA";
 	const uint64_t TELOMERE_ENDS = 92;
+	// adapted for barn owl genome
 	const float GC_LOWERBOUND = 0.4;
 	const float GC_UPPERBOUND = 0.6;
 	const float GC_BINSIZE = 0.02;
